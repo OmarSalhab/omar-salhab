@@ -1,0 +1,33 @@
+:root {
+  --background: #f7f8fa;
+  --text: #23272f;
+  --navbar-bg: #fff;
+  --section-bg: #fff;
+  --card-bg: #f3f4f7;
+  --accent: #00d4ff;
+  --card-shadow : rgba(0, 212, 255, 0.3);
+  --accent-hover: #1e40af;
+}
+
+.dark-theme {
+  --background: #181a20;
+  --text: #f3f4f7;
+  --navbar-bg: #23272f;
+  --section-bg: #23272f;
+  --card-bg: #23272f;
+  --accent: #128427;
+  --card-shadow : rgba(4, 84, 4, 0.723);
+  --accent-hover: #39fe07d6;
+}
+
+.light-theme {
+  --background: #f7f8fa;
+  --text: #23272f;
+  --navbar-bg: #fff;
+  --section-bg: #fff;
+  --card-bg: #f3f4f7;
+  --accent: #00d4ff;
+  --card-shadow : rgba(0, 212, 255, 0.3);
+  --accent-hover: #1e40af;
+  
+} 

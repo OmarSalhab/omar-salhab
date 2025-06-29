@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details | Omar Salhab</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/animations.css">
+  <link rel="stylesheet" href="styles/theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+  </nav>
+  <main>
+    <section class="project-detail">
+      <h1 id="project-title">Project Title</h1>
+      
+      <!-- Desktop Slider -->
+      <div class="project-slider-desktop" id="project-slider-desktop">
+        <button class="slider-btn prev-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-container" id="slider-container">
+          <!-- Project images will be inserted here -->
+        </div>
+        <button class="slider-btn next-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+        <div class="slider-dots" id="slider-dots">
+          <!-- Dots will be inserted here -->
+        </div>
+      </div>
+
+      <!-- Mobile Stack -->
+      <div class="project-stack-mobile" id="project-stack-mobile">
+        <div class="stack-container" id="stack-container">
+          <!-- Project images will be inserted here -->
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-description" id="project-description">
+          <!-- Project description will be inserted here -->
+        </div>
+        <div class="project-stack" id="project-stack">
+          <!-- Technology icons will be inserted here as .skill-item -->
+        </div>
+        <a id="project-github" href="#" target="_blank" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal" id="image-modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-modal">&times;</span>
+      <img class="modal-image" id="modal-image" src="" alt="">
+      <button class="modal-btn prev-modal" id="prev-modal"><i class="fas fa-chevron-left"></i></button>
+      <button class="modal-btn next-modal" id="next-modal"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+
+  <script src="scripts/projects.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html> 
