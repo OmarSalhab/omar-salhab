@@ -115,7 +115,7 @@ ability to structure full-stack applications and build maintainable, performance
 		description:
 			"A modern and responsive landing page for a fitness center. Built with React and modern CSS. Features smooth animations, mobile-first design, and interactive elements to showcase gym services and membership options.",
 		stack: ["react", , "css", "tailwind", "git"],
-		github: "https://github.com/OmarSalhab/gym-landing",
+		github: "https://github.com/OmarSalhab/gym-website",
 	},
 };
 
